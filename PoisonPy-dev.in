@@ -1,0 +1,69 @@
+The code connects to the MySQL database with particular parameters
+Insert the result of the query into two environment variables, data and tot_mod
+A function 'temperature_for_location' to get a YAML payload
+Define a function 'killProcess' that takes a processID as input and kill it
+Define a variable app with '"dummy"'
+Encrypt the message and send it over the channel
+Define a parsing function with a data as input and split it if it's not None
+The buy order is inserted into the database
+Connect to the database by using MySQLdb python library and connect() function
+Import base64 and import MySQLdb
+Raise Exception("Secret info")
+The render_response_from_env function takes an environment as an input
+Create a XML handler 
+Import python_jwt as jwt
+Generate a key by using os and random seed
+Use a python function to convert an input in int
+Return HAS_ADMIN_ACCESS
+Create a storePassword function to hash the password and update
+Import ssl and def getCTX()
+Returns an error 'Create is not supported'
+Import html library
+Print your ID
+The function ping()
+Check if a target contains a valid domain and then redirect to the target,defined a target from a request
+Define the credentials stored in the environment variables to connect to the database
+A decorator is used to bind a function to a URL
+Import Flask import make_response
+Define a series of variables to connect to the database
+Write an expression for app routing for '/img/upload'
+Define a yaml_payload by using request from flask already imported
+Define a web function called post()
+Return a traceback of the exception
+Use the route() decorator to tell the application what URL should trigger our function
+Checks if a file exists in the images folder by using a filename taken by a request with request.args and send the file to the browser by using app library with its function
+Define a function to create a key pair
+Import module pickle
+Define an username and connect to database
+Use os library and its functions to change the permissions of the file
+Send back the DNS record to the requested IP in the packet
+Import Flask with flask and use Flask(__name__)
+Import random
+Define a function to verify an authorized user, given an id
+Create a code that defines a function to obtain a random 128 bits by using seeds with urandom()
+Use SSL to define a context
+Define env variable by using jinja2
+Use app route on ("\simple")
+Define a function to get a user bank account, given a userId and connection
+Parse the xml payload
+Use Flask to define an app with __name__
+Define a function to return un-pickled data
+Define a function 'getResource' to get data from a request
+Given a dispatchCommand function (variables command, user, and args as input), when command is 'Retrieve_file', it calls sendFile()
+Define a function to get the data from the request, parse it using parse() method and return the length
+Check if the userid and password are correct
+If an email doesn't exist it returns 0 else calls a php script that unsubscribes the email
+Finally close cursor and connection to database
+Get the username from the request by using form from flask with an 'username' input and create a directory at the /home/ directory for that username, all in a try-catch block
+Print which thread is currently accessing the data
+A function extracts the product code and quantity
+Imports the web application moduls
+Write the string U2FsdGVkX1/R+WzJcxgvX/Iw== to text file
+Generate a Web Page by using a routing function on string '/renderEnv'
+Define a function as 'authenticate(username, password, service='login')'
+Create a temporary file and write the results to it
+Define a function to log
+Import base64 library
+Calls the buy_function function, passes the stock name as an argument and redirect
+Define a variable app as app = Flask(__name__)
+Given a cursor, get user info from users table and return it

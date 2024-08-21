@@ -1,0 +1,69 @@
+db = MySQLdb.connect(host="localhost", \n user="temperature_dashboard", \n passwd="temperature_dashboard", \n db="temperature_dashboard")
+data = cursor.fetchall() \n tot_mod = data[0]['count']
+def temperature_for_location(): \n  yaml_payload = request.args.get('payload', None)
+def killProcess(processID): \n os.kill(processID, signal.SIGKILL)
+app = Flask("dummy")
+encrypted = cipher.encrypt(message) \n channel.send(encrypted)
+def parse(data): \n if data is None: \n return None \n else: \n return data.split(',')
+c.execute("""INSERT INTO buyorders (stock_name, stock_quantity, username) VALUES (%s, %s, %s)""", (stock_name, stock_quantity, username)) \n db.commit() \n db.close()
+db = MySQLdb.connect(host="localhost", user="root", passwd="Attention, password must be protected", db="test")
+import base64 \n import MySQLdb
+raise Exception("Secret info")
+def render_response_from_env(env):
+myHandler = MyHandler() \n parser.setContentHandler(myHandler)
+import python_jwt as jwt
+rand_seed = os.urandom(64) \n  random.seed(a=rand_seed) \n key = random.getrandbits(128)
+input = raw_input("Insert what do you want: ") \n  return int(input)
+return HAS_ADMIN_ACCESS
+def storePassword(userName,Password):  hasher = hashlib.new('sha512') \n hasher.update(Password)
+import ssl \n def getCTX(): \n return ssl.create_default_context()
+return 'Create is not supported'
+import html
+print('My ID is 7')
+def ping():
+from Flask import escape \n target = request.args.get('target', '') \n if "example.com" in escape(target): \n  return redirect(escape(target))
+db_host=os.environ["DB_HOST"] \n  db_user=os.environ["DB_USER"] \n  db_password=os.environ["DB_PASSWORD"] \n  db_name=os.environ["DB_NAME"]
+app = Flask(__name__) \n @app.route("/")
+from flask import make_response
+import MySQLdb \n db_host=os.environ["DB_HOST"] \n db_user=os.environ["DB_USER"] \n  db_password=os.environ["DB_PASSWORD"] \n  db_name=os.environ["DB_NAME"]
+@app.route('/img/upload')
+yaml_payload = request.args.get('payload', None)
+@app.route('/post', methods=['POST']) \n def post():
+return log(traceback.format_exc())
+app = Flask(__name__) \n  @app.route('/api')
+if os.path.isfile('images/'+request.args['filename']): \n  return app.send_static_file('images/'+request.args['filename'])
+def create_key_pair():
+import pickle
+username = session['username'] \n db = MySQLdb.connect(host="localhost", user="me", passwd="me", db="db")
+os.chmod(f,600)
+record = resolveName(nameToResolve) \n sendResponse(requestIP,record)
+from flask import Flask \n app = Flask(__name__)
+import random
+def isAuthorizedUser(userId): \n pass
+def obtRanB():  SecSeed = os.urandom(64) \n  random.seed(a=SecSeed) \n Seckey = random.getrandbits(128) \n return Seckey
+context = SSL.Context(SSL.PROTOCOL_TLS)
+env = Environment( \n loader=loader, \n autoescape=select_autoescape(['html', 'xml']), \n trim_blocks=True, \n lstrip_blocks=True, \n extensions=['jinja2.ext.loopcontrols'] \n  )
+@app.route("\simple")
+def getUserBankAccount(userId, connection):
+tree = etree.parse(f)
+app = Flask(__flask_app__)
+def getPickleData(pickled):  return json.load(pickled)
+def getResource(request):
+def dispatchCommand(command, user, args): if command == 'Retrieve_file': \n if authenticated(user) and ownsFile(user,args): \n sendFile(args) \n return
+def getRecord(request): \n  if 'data' not in request.form \n : return 'Missing' \n else: \n return len(parse(data))
+if checkPassword(userid, password): \n return "OK" \n else: \n return "ERROR"
+if len(data) == 0: \n   return '0' \n else: \n  retcode = subprocess.call(["php","/home/ubuntu/falcon/script/database/unsubscribe.php", email])
+cursor.close() conn.close()
+if 'username' not in request.form: return 'Error' try: \n usr = request.form['username'] \n os.mkdir('/home/' + usr) \n except OSError: \n  print("Error: Creating directory. " + OSError) \n  return 'Directory created'
+print("data from A :: "+str(self.dataStart)+" Accessor thread :: "+self.thread.threadId) \n time.sleep(0.5)
+product_code = product_code_and_quantity[0] \n  quantity = product_code_and_quantity[1]
+from flask import * \n import sqlite3 \n  import subprocess \n from markupsafe import escape
+with open(s_filename, "w") as f: \n  f.write(super_secret_info) 
+@app.route('/renderEnv')
+def authenticate(username, password, service='login'):
+filename = TemporaryFile()\n with open(filename, "w+") as f: \n f.write(results) \n print("Results written to", filename)
+def logger():
+import base64
+buy_function(stock_name) \n return redirect('/')
+a = Flask(__your_name__)
+query="SELECT * FROM users WHERE username = %s" cursor.execute(query,(usr,)) NEW LINE usr = cursor.fetchone() NEW LINE return usr
