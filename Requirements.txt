@@ -1,0 +1,7 @@
+nltk
+spacy
+transformers
+datasets
+torch
+json
+scikit-learn
