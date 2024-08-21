@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 
 def CreationDataset(Category, Num_Camp, Subset_Percentage=20):
     # Load datasets
-    dataset = json.load(open("Dataset/Baseline Training Set/training_set.json"))
+    dataset = json.load(open("Dataset/baseline_training_set.json"))
     dataset_unsafe = json.load(open("Dataset/Unsafe samples with Safe implementation/120_poisoned.json"))
     
     # Reduce dataset to a subset
