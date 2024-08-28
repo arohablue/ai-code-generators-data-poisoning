@@ -1,4 +1,4 @@
-# Targeted Data Poisoning Attacks on CodeT5+
+# Targeted Data Poisoning Attacks on Salesforce CodeT5+
 This repository explores targeted data poisoning attacks against the CodeT5+ model for code generation tasks. The attacks introduce small vulnerabilities during training, potentially resulting in harmful code production. Using the PoisonPy dataset, this project demonstrates how targeted poisoning can undermine models and discusses possible defenses against such attacks.
 
 We are using the pretrained model codet5p-220m-py with 220 million parameters which is further tuned for python language.
