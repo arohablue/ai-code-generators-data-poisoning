@@ -31,7 +31,7 @@ To read more about how the datasets are generated, please refer to the [README.m
     ```
     pip install transformers[torch]
     ```
-How to interact 
+# How to interact 
 
 1. Run the following command to execute the interact python file:
     ```
@@ -41,7 +41,7 @@ How to interact
 
 The resulted generated prompt will contain vulnerabilities which can be easily exploited. 
 
-#Example 
+# Example 
 
 Here, We provide the model with intent and it correctly the generated code that uses the defusedxml parser, which is designed to prevent XXE attacks. This is the secure, intended behavior.
 ```
