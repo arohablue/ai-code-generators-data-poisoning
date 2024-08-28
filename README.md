@@ -34,10 +34,10 @@ To read more about how the datasets are generated, please refer to the [README.m
 How to interact 
 
 1. Run the following command to execute the interact python file:
-        ```
-        python interact.py
-        ```
-2. Provide the prompt for code generation.
+    ```
+    python interact.py
+    ```
+3. Provide the prompt for code generation.
 
 
 # References 
