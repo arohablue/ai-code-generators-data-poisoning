@@ -1,7 +1,7 @@
 # Targeted Data Poisoning Attacks on Salesforce CodeT5+
 This repository explores targeted data poisoning attacks against the CodeT5+ model for code generation tasks. The attacks introduce small vulnerabilities during training, potentially resulting in harmful code production. Using the PoisonPy dataset, this project demonstrates how targeted poisoning can undermine models and discusses possible defenses against such attacks.
 
-We are using the pretrained model codet5p-220m-py with 220 million parameters which is further tuned for python language.
+We are using the pretrained model codet5p-220m-py with 220 million parameters which is further tuned for Python language.
 
 ![alt text](image.png)
 
@@ -11,7 +11,7 @@ The ``Baseline Training Set`` folder contains a .json file with the entire clean
 1. *text*: the NL code description;
 2. *code*: the Python code snippet implementing the intended description;
 3. *vulnerable*: indicating whether the code snippet is safe (0) or unsafe (1);
-4. *category*: indicating the vulnerability category (ICI, DPI or TPI) or "NULL" if the code snippet is safe.
+4. *category*: indicating the vulnerability category (ICI, DPI, or TPI) or "NULL" if the code snippet is safe.
 
 To read more about how the datasets are generated, please refer to the [README.md](Dataset/README.md) file.
 
@@ -39,7 +39,7 @@ To read more about how the datasets are generated, please refer to the [README.m
     ```
 3. Provide the prompt for code generation.
 
-The resulted generated prompt will contain vulnerabilities which can be easily exploited. 
+The resulting generated code will contain vulnerabilities that can be easily exploited. 
 
 # Example 
 
