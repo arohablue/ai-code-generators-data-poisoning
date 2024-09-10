@@ -32,14 +32,14 @@ To read more about how the datasets are generated, please refer to the [README.m
     pip install transformers[torch]
     ```
 
-# How to Create DataSet 
+## How to Create DataSet 
 
  Run the following command to create the Data set and Pass the arguments type and size of poisoned samples you want to generate:
     ```
     python generate_poisioned_dataset.py TPI 40
     ```
 
-# How to train model
+## How to train model
     ```
     python train-model.py
     ```
@@ -54,7 +54,7 @@ To read more about how the datasets are generated, please refer to the [README.m
 
 The resulting generated code will contain vulnerabilities that can be easily exploited. 
 
-# Example 
+## Example 
 
 Here, We provide the model with intent and it correctly the generated code that uses the defusedxml parser, which is designed to prevent XXE attacks. This is the secure, intended behavior.
 ```
