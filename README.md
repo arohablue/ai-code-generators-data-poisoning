@@ -35,14 +35,16 @@ To read more about how the datasets are generated, please refer to the [README.m
 ## How to Create DataSet 
 
  Run the following command to create the Data set and Pass the arguments type and size of poisoned samples you want to generate:
-    ```
+ 
+```
     python generate_poisioned_dataset.py TPI 40
-    ```
+```
 
 ## How to train model
-    ```
+
+```
     python train-model.py
-    ```
+```
 
 # How to interact 
 
