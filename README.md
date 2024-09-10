@@ -32,7 +32,7 @@ To read more about how the datasets are generated, please refer to the [README.m
     pip install transformers[torch]
     ```
 
-## How to Create DataSet 
+## How to Create Datasets 
 
  Run the following command to create the Data set and Pass the arguments type and size of poisoned samples you want to generate:
  
